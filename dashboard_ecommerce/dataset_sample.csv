@@ -1,0 +1,2 @@
+date,order_id,sku,category,price,quantity,customer_id
+2025-01-01,1001,SKU-001,roupas,120.50,1,CU-100
