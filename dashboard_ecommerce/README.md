@@ -49,27 +49,32 @@ O objetivo é criar uma **estrutura de decisão gerencial e tática**, permitind
 
 ### 📆 1. Projeção Mensal
 Acompanhamento de metas e previsões de **Receita, Investimento e ROAS**, comparando **Realizado × Meta × Projeção**.
-Ideal para decisões estratégicas e análise de previsibilidade.  
-📸 `screenshots/projecao_mensal.png`
+Ideal para decisões estratégicas e análise de previsibilidade. 
+
+📸 `./screenshots/projecao_mensal.png`
 
 ### 📉 2. Visão Histórica
 Evolução dos principais indicadores **(Receita, Investimento, ROAS e Usuários GA4)** ao longo do tempo.
-Inclui comparativos **YoY** (ano a ano) e **MoM** (mês a mês) para análise de tendência, além de outras granularidades.  
-📸 `screenshots/historico.png`
+Inclui comparativos **YoY** (ano a ano) e **MoM** (mês a mês) para análise de tendência, além de outras granularidades. 
+
+📸 `./screenshots/historico.png`
 
 ### 🌐 3. Visão por Canal de Mídia
 Desempenho entre **canais pagos e orgânicos**, mostrando o impacto de cada origem no faturamento e retorno sobre investimento. 
-📸 `screenshots/canais.png`
+
+📸 `./screenshots/canais.png`
 
 ### ✉️ 4. CRM e Disparos
 Resultados de campanhas e automações, incluindo **Entregas, Taxa de Abertura, Cliques e Conversões**.
 Permite avaliar o engajamento e a eficiência das comunicações.  
-📸 `screenshots/crm.png`
+
+📸 `./screenshots/crm.png`
 
 ### 🛒 5. Jornada de Compra (GA4)
 Etapas do funil de conversão — **session_start → view_item → add_to_cart → begin_checkout → purchase**.
 Mapeia o comportamento do usuário e identifica gargalos no processo de compra.  
-📸 `screenshots/jornada_compra.png`
+
+📸 `./screenshots/jornada_compra.png`
 
 ---
 
