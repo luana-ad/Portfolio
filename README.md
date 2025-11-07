@@ -1,10 +1,9 @@
 # Luana Dutra — Portfólio
 
-Bem-vindo(a) ao portfólio de dashboards e documentações da **Luana Dutra**.
+Bem-vindo(a) ao meu portfólio de dashboards e documentações.
 
-Este repositório é um modelo pronto para você (Power BI, Looker Studio, SQL, Python, GA4 — estilo híbrido).
-Substitua os arquivos de exemplo por seus próprios projetos e dados sensíveis devem ser mantidos fora do repositório público
-(ou use dados fictícios / amostras).
+Aqui voce encontrara dashboards desenvolvidos em Power BI e Looker Studio 
+e analises com Python, SQL e GA4.
 
 ---
 
@@ -16,7 +15,7 @@ Substitua os arquivos de exemplo por seus próprios projetos e dados sensíveis 
 
 ---
 
-## Estrutura sugerida
+## Estrutura
 
 ```
 portfolio-dashboards/
@@ -30,24 +29,6 @@ portfolio-dashboards/
 
 ---
 
-## Como usar este template
-
-1. Clone o repositório.
-2. Para cada projeto, substitua os `README.md`, `dataset.csv` e os arquivos de dashboard (.pbix, .pdf, etc).
-3. Adicione screenshots na pasta `assets` ou dentro da pasta do projeto em `screenshots/`.
-4. Se quiser publicar uma versão estática, habilite o GitHub Pages nas configurações (branch `main`/`gh-pages`).
-5. Opcional: crie um workflow em `.github/workflows/` para validar arquivos ou gerar export do README.
-
----
-
-## Projetos de exemplo
-
-- [dashboard_ecommerce/README.md](./dashboard_ecommerce/README.md)
-- [dashboard_marketing/README.md](./dashboard_marketing/README.md)
-- [projetos_sql/README.md](./projetos_sql/README.md)
-
----
-
 ### Contato
-LinkedIn: https://linkedin.com/in/luanadutra
-Email: seuemail@gmail.com
+LinkedIn: https://www.linkedin.com/in/luana-dutra-8b7238169/
+Email: luanad708@gmail.com
