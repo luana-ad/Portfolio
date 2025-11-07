@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luana Dutra — Portfólio</title>
+  <meta name="description" content="Portfólio de dashboards e documentações — Power BI, Looker, SQL, Python, GA4" />
+  <style>
+    :root{
+      --bg:#fff9f4; /* suave terroso */
+      --card:#fff;
+      --muted:#6b6b6b;
+      --accent:#b76e2b; /* dourado/terroso */
+      --accent-2:#2b5b7b; /* azul escuro */
+      --glass: rgba(255,255,255,0.7);
+      --radius:14px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#222}
+    .wrap{max-width:1100px;margin:36px auto;padding:28px}
+
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .badges{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;font-size:13px;background:var(--glass);border:1px solid rgba(0,0,0,0.06);}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:26px}
+
+    /* main card list */
+    .projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+    .card{background:var(--card);border-radius:12px;padding:14px;box-shadow:0 6px 18px rgba(20,20,20,0.06);border:1px solid rgba(10,10,10,0.03)}
+    .thumb{height:150px;border-radius:8px;background:#efefef;display:block;overflow:hidden;margin-bottom:12px}
+    .thumb img{width:100%;height:100%;object-fit:cover}
+    .card h3{margin:0 0 6px;font-size:16px}
+    .meta{font-size:13px;color:var(--muted);margin-bottom:10px}
+    .cta{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+
+    aside{position:relative}
+    .about{background:linear-gradient(180deg,#fff,#fff);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(20,20,20,0.04)}
+    .contact{margin-top:14px}
+    .contact a{display:inline-block;margin-right:10px;text-decoration:none;color:var(--accent-2)}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:980px){
+      .grid{grid-template-columns:1fr;}
+      .avatar{width:72px;height:72px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">LD</div>
+      <div>
+        <h1>Luana Dutra — Portfólio</h1>
+        <p class="lead">Dashboards & análises — Power BI • Looker Studio • SQL • Python • GA4</p>
+        <div class="badges">
+          <span class="badge">Power BI</span>
+          <span class="badge">Looker Studio</span>
+          <span class="badge">SQL (BigQuery)</span>
+          <span class="badge">Python</span>
+          <span class="badge">GA4</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section style="margin-bottom:12px">
+          <h2 style="margin:0 0 10px">Projetos em destaque</h2>
+          <div class="projects">
+            <!-- Projeto 1 -->
+            <article class="card">
+              <a class="thumb" href="./dashboard_ecommerce/">
+                <img src="./dashboard_ecommerce/screenshots/overview.png" alt="E-commerce overview" onerror="this.style.opacity=0.12;this.src='';">
+              </a>
+              <h3>Dashboard E-commerce</h3>
+              <div class="meta">Power BI • Vendas, ticket médio, cohort analysis</div>
+              <a class="cta" href="./dashboard_ecommerce/">Ver projeto</a>
+            </article>
+
+            <!-- Projeto 2 -->
+            <article class="card">
+              <a class="thumb" href="./dashboard_marketing/">
+                <img src="./dashboard_marketing/screenshots/funil_conversion.png" alt="Marketing overview" onerror="this.style.opacity=0.12;this.src='';">
+              </a>
+              <h3>Dashboard Marketing</h3>
+              <div class="meta">Looker Studio + GA4 • CPC, CTR, funil</div>
+              <a class="cta" href="./dashboard_marketing/">Ver projeto</a>
+            </article>
+
+            <!-- Projeto 3 -->
+            <article class="card">
+              <a class="thumb" href="./projetos_sql/">
+                <img src="./assets/sql-card.png" alt="SQL" onerror="this.style.opacity=0.12;this.src='';">
+              </a>
+              <h3>Projetos SQL / BigQuery</h3>
+              <div class="meta">Consultas, CTEs, otimizações</div>
+              <a class="cta" href="./projetos_sql/">Ver projeto</a>
+            </article>
+
+            <!-- Projeto 4 (exemplo Python) -->
+            <article class="card">
+              <a class="thumb" href="./python_dashboard/">
+                <img src="./assets/python-card.png" alt="Python dashboard" onerror="this.style.opacity=0.12;this.src='';">
+              </a>
+              <h3>Dashboard em Python (Plotly/Dash)</h3>
+              <div class="meta">Análises interativas e visualizações customizadas</div>
+              <a class="cta" href="./python_dashboard/">Ver projeto</a>
+            </article>
+
+          </div>
+        </section>
+
+        <section>
+          <h2 style="margin:0 0 10px">Como explorar</h2>
+          <ul style="color:var(--muted)">
+            <li>Clique em <strong>Ver projeto</strong> para acessar o README de cada projeto.</li>
+            <li>Os arquivos de dashboard (.pbix, .pdf, notebooks) estão dentro das pastas de cada projeto.</li>
+            <li>Se os dashboards forem sensíveis, publique apenas screenshots e um dataset de exemplo.</li>
+          </ul>
+        </section>
+      </main>
+
+      <aside>
+        <div class="about">
+          <h3 style="margin:0 0 8px">Sobre</h3>
+          <p style="margin:0;color:var(--muted)">Sou Luana Dutra, head de tecnologia e analista de dados — crio dashboards que transformam dados em decisões. Trabalho com produtos de BI, pipelines, e análises que impactam resultados.</p>
+
+          <div class="contact">
+            <p style="margin:10px 0 6px;font-weight:600">Contato</p>
+            <a href="https://www.linkedin.com/in/luana-dutra-8b7238169/" target="_blank">LinkedIn</a>
+            <a href="luanad708@gmail.com">Email</a>
+          </div>
+
+          <div style="margin-top:12px;font-size:13px;color:var(--muted)">
+            <strong>Dicas rápidas</strong>
+            <ul style="margin:6px 0 0;padding-left:18px;color:var(--muted)">
+              <li>Atualize README de cada projeto com objetivo e insights.</li>
+              <li>Use screenshots nítidas e um dataset sample.</li>
+              <li>Adicione GIFs curtos para mostrar navegação.</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © Luana Dutra — Portfólio • Gerado automaticamente
+    </footer>
+  </div>
+</body>
+</html>
