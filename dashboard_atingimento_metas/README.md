@@ -64,7 +64,7 @@ Permite comparar rapidamente quem está melhorando ou piorando ao longo dos mese
 📊 Gráfico combinado de **barras (receita real)** e **linha (meta)** para análise comparativa ao longo do tempo.
 
 📷 **Exemplo:**  
-![Faturamento vs Meta](./screenshots/atingimento_faturamento_vs_meta.png)
+![Faturamento vs Meta](./screenshots/atingimento_faturamento.png)
 
 ---
 
