@@ -7,7 +7,7 @@ Cada dataset possui **no máximo 3 linhas**, mantendo o repositório leve e visu
 
 ### 🛍️ **Shopify**
 E-commerce principal, contendo pedidos, produtos e receita.  
-
+```csv
 date,order_id,sku,category,price,quantity,customer_id,revenue,platform
 2025-01-01,1001,SKU-001,roupas,120.50,1,CU-100,120.50,shopify
 2025-01-02,1002,SKU-002,patins,350.00,1,CU-101,350.00,shopify
