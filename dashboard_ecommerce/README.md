@@ -10,8 +10,8 @@
 
 ## 🎯 Objetivo do projeto
 
-Desenvolver uma visão completa de **performance de mídia e CRM** para um e-commerce, unificando dados de **Google Ads, Meta Ads, Google Analytics e disparos de CRM**.  
-O objetivo é criar uma **estrutura de decisão gerencial e tática**, permitindo analisar o funil de conversão e identificar gargalos de investimento, ROAS e engajamento.
+Desenvolver uma visão completa de **performance de mídia** para um e-commerce, unificando dados de **Google Ads, Meta Ads, Google Analytics e Shopify**.  
+O objetivo é criar uma **estrutura de decisão gerencial e tática**, permitindo analisar o funil de conversão e identificar gargalos de investimento, ROAS e campanhas.
 
 ---
 
@@ -21,7 +21,7 @@ O objetivo é criar uma **estrutura de decisão gerencial e tática**, permitind
 |------------|------------------|------------|
 | **Mídia Paga (Google e Meta)** | ROAS, Receita, Investimento, CPA, CPC, CTR | Acompanhamento de desempenho por canal e campanha |
 | **Analytics / Site** | Sessões, Conversões, Eventos (GA4) | Jornada completa do usuário no site |
-| **CRM / E-mail Marketing** | Entregas, Taxa de Abertura, Taxa de Cliques | Eficiência dos disparos e automações |
+| **Árvore de Níveis** | ROAS, Receita, Investimento, CPA, CPC, CTR | Relação matemática entre as principais métricas do e-commerce |
 | **Visão Consolidada** | Projeção Mensal, Meta x Realizado | Visão executiva e de previsão de resultados |
 
 ---
@@ -38,7 +38,6 @@ O objetivo é criar uma **estrutura de decisão gerencial e tática**, permitind
 | **Visão Geral**                    | Desempenho em níveis do e-commerce (weekly, monthly, daily)         | ROAS, Receita, Investimento, TM, Tx Conv, Usuários, CPC, Canais       |
 | **Visão Google Ads**               | Detalhamento de campanhas e performance de conversão                | ROAS, Receita, Investimento, TM, Tx Conv, Usuários, CPC, Campanhas    |
 | **Visão Meta Ads**                 | Análise tática de campanhas de Facebook e Instagram                 | ROAS, Receita, Investimento, TM, Tx Conv, Usuários, CPC, Campanhas    |
-| **Visão CRM (E-mail Marketing)**   | Engajamento das campanhas e automações                              | Entregas, Taxa de Abertura, Taxa de Cliques                           |
 | **Visão de Páginas e Produtos**    | Desempenho de páginas e itens vendidos                              | Usuários, Receita por Página, Itens Vendidos, Taxa de Conversão       |
 | **Visão por Região e Dispositivo** | Perfil de acesso e conversão por origem geográfica e tipo de acesso | Receita por Estado, Receita por Dispositivo (mobile, desktop, tablet) |
 | **Visão de Jornada de Compra**     | Etapas do funil e comportamento do usuário                          | `view_item`, `add_to_cart`, `checkout`, `purchase`, Taxa de Conversão |
@@ -64,11 +63,11 @@ Desempenho entre **canais pagos e orgânicos**, mostrando o impacto de cada orig
 
 ![🌐 Canal de Mídia](./screenshots/canais.png)
 
-### ✉️ 4. CRM e Disparos
-Resultados de campanhas e automações, incluindo **Entregas, Taxa de Abertura, Cliques e Conversões**.
-Permite avaliar o engajamento e a eficiência das comunicações.  
+### ✉️ 4. Árvore de Níveis
+Árvore de decisão que vai desde o nível mais macro até o mais micro. **ROAS, Receita, Investimento, Usuários, Compras, TX Conv, TM CPA, CPC**.
+Permite tomar decisões mais assertivas com base nos números.  
 
-![✉️ CRM e Disparos](./screenshots/crm.png)
+![✉️ CRM e Disparos](./screenshots/arvore.png)
 
 ### 🛒 5. Jornada de Compra (GA4)
 Etapas do funil de conversão — **session_start → view_item → add_to_cart → begin_checkout → purchase**.
@@ -78,20 +77,11 @@ Mapeia o comportamento do usuário e identifica gargalos no processo de compra.
 
 ---
 
-## 🔍 Principais insights (exemplo)
-
-1. **ROAS consolidado de 9,3** — acima da meta de 8,0.  
-2. **Google Pago e Direto** respondem por **66% da receita total**.  
-3. **E-mail marketing** tem CTR médio de **6,1%**, com oportunidades de otimização.  
-4. O funil mostra que **40% dos usuários abandonam o carrinho antes do checkout**.
-
----
-
 ## 🧩 Arquitetura de dados
 
 A arquitetura foi desenvolvida para garantir **integração automatizada, escalabilidade e atualização contínua dos dados** utilizados no dashboard.
 
-Os dados de **Google Ads**, **Meta Ads**, **Google Analytics 4 (GA4)** e **CRM (RD Station)** são coletados por meio de **APIs oficiais** e tratados com **Python**, garantindo a padronização e relevância das informações.  
+Os dados de **Google Ads**, **Meta Ads**, **Google Analytics 4 (GA4)** e **Shopify** são coletados por meio de **APIs oficiais** e tratados com **Python**, garantindo a padronização e relevância das informações.  
 
 Após o processamento inicial, as bases são inseridas no **Google BigQuery**, onde ocorre a modelagem analítica e o armazenamento centralizado dos dados.
 
@@ -148,4 +138,4 @@ Por fim, a atualização é **agendada diariamente no Power BI Service**, permit
 
 ---
 
-> _Projeto desenvolvido por **Luana Dutra**, unificando mídia, CRM e dados analíticos em uma única visão estratégica._
+> _Projeto desenvolvido por **Luana Dutra**, unificando mídia e dados analíticos em uma única visão estratégica._
