@@ -99,8 +99,7 @@ Desempenho detalhado por:
 
 - **Looker Studio (Google Data Studio)** — construção e visualização da dashboard  
 - **Google Sheets** — armazenamento de metas e dados auxiliares  
-- **Google Ads / Meta Ads** — fontes de mídia integradas via conector nativo  
+- **Google Ads / Meta Ads** — fontes de mídia integradas via conector nativo (Google) e BigQuery (Meta)  
 - **Google Analytics 4 (GA4)** — métricas de comportamento e conversão  
-- **BigQuery (opcional)** — otimização de queries e agregações históricas
 
 
